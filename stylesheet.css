@@ -20,6 +20,9 @@ body {
   padding: 0;
   background-color: #F9F9F9;
 }
+p{
+  font-size: 20px;
+}
 
 /* --- HERO --- */
 .hero {
@@ -33,7 +36,7 @@ body {
   text-align: center;
 }
 .hero-logo img {
-  max-width: 180px;
+  max-width: 220px;
   z-index: 10;
 }
 .btn-cta-circle {
@@ -70,17 +73,24 @@ body {
 }
 
 /* --- UNIVERS (colonne droite foncée) --- */
-.univers {
-  display: flex;
-  align-items: stretch;
-}
 .univers .col-md-8 {
   background-color: #1e1e1e;
   color: white;
   padding: 60px;
 }
+
 .univers img {
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.univers img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.univers p {
+  font-size: 0.9rem;
+  margin-top: 8px;
 }
 
 #formulaire{
