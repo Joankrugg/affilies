@@ -88,16 +88,18 @@ body {
 }
 
 /* --- FOOTER --- */
-footer {
-  background: #212529;
+.footer-custom {
+  background-color: #000;
   color: white;
-  padding: 20px;
-  text-align: center;
+  padding: 30px 40px;
 }
-footer a {
-  color: #BB663A;
-  text-decoration: none;
+
+.footer-custom .footer-logo {
+  max-width: 140px;
+  display: block;
 }
-footer a:hover {
-  text-decoration: underline;
+
+.footer-custom p {
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
