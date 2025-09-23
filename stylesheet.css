@@ -58,7 +58,6 @@ body {
 
 /* --- SECTIONS SPLIT (2 et 3) --- */
 .section-split {
-  min-height: 100vh;
   display: flex;
   align-items: stretch;
   background-color: #FCF9F3;
@@ -72,7 +71,6 @@ body {
 
 /* --- UNIVERS (colonne droite foncée) --- */
 .univers {
-  min-height: 100vh;
   display: flex;
   align-items: stretch;
 }
